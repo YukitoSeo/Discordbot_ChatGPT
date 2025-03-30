@@ -13,6 +13,9 @@ Botは、以下の機能を備えています！
   
 ## Quick Start！
 Step1：以下のファイルをダウンロード！  
+・discord_basemodel.py  
 https://github.com/YukitoSeo/Discordbot_ChatGPT/blob/main/discord_basemodel.py  
+・discord_taken.py  
 https://github.com/YukitoSeo/Discordbot_ChatGPT/blob/main/discord_taken.py  
+・requirements.txt  
 https://github.com/YukitoSeo/Discordbot_ChatGPT/blob/main/requirements.txt  
