@@ -12,7 +12,7 @@ Botは、以下の機能を備えています！
 ・ボイスチャットの監視と通知  
   
 ## Quick Start！
-注意：Pythonプログラミング環境の設定、APIの取得方法についてはご自身で設定をお願い致します。
+注意：Pythonプログラミング環境設定、各種APIの取得方法、DiscordBotの招待についてはご自身で設定をお願い致します。
 
 STEP-1：以下のファイルをダウンロード！  
 ・discord_basemodel.py  
@@ -32,5 +32,18 @@ class Takens():
         self.vc_channel = [] #監視するボイスチャットのVCチャンネルIDを設定
         self.vc_notice =  #ボイスチャット入室通知を書き込むテキストチャンネルIDを設定
         self.openai_token = ''#OpenAI(ChatGPT) のToken
-
 ```
+## STEP-3：Pythonの環境にライブラリをインストール！ 
+requirements.txtにあるライブラリ、または以下のコマンドで必要なライブラリをインストールしてください。
+```
+pip install discord.py
+pip install openai
+```
+## STEP-4：Python環境でプログラムを起動！
+以下のコマンドでプログラムを起動してください。
+ボットがディスコード上のチャットサーバーで動作すれば、完了です。
+```
+python discord_basemodel.py
+```
+
+
