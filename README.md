@@ -12,3 +12,7 @@ Botは、以下の機能を備えています！
 ・ボイスチャットの監視と通知  
   
 ## Quick Start！
+Step1：以下のファイルをダウンロード！  
+https://github.com/YukitoSeo/Discordbot_ChatGPT/blob/main/discord_basemodel.py  
+https://github.com/YukitoSeo/Discordbot_ChatGPT/blob/main/discord_taken.py  
+https://github.com/YukitoSeo/Discordbot_ChatGPT/blob/main/requirements.txt  
