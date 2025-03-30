@@ -23,4 +23,13 @@ https://github.com/YukitoSeo/Discordbot_ChatGPT/blob/main/discord_taken.py
 https://github.com/YukitoSeo/Discordbot_ChatGPT/blob/main/requirements.txt  
 
 ## STEP-2：各種API、TOKENの設定！  
-「discord_taken.py」内の値を設定する！
+「discord_taken.py」内で、それぞれの値を入力する！
+```
+class Takens():
+    def __init__(self):
+        self.discordbot_taken = '' #ディスコードボットのトークンを設定
+        self.log =  #ログを書き込むテキストチャンネルIDを設定
+        self.vc_channel = [] #監視するボイスチャットのVCチャンネルIDを設定
+        self.vc_notice =  #ボイスチャット入室通知を書き込むテキストチャンネルIDを設定
+        self.openai_token = ''
+```
