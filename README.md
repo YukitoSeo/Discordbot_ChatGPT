@@ -12,10 +12,15 @@ Botは、以下の機能を備えています！
 ・ボイスチャットの監視と通知  
   
 ## Quick Start！
-Step1：以下のファイルをダウンロード！  
+注意：Pythonプログラミング環境の設定、APIの取得方法についてはご自身で設定をお願い致します。
+
+STEP-1：以下のファイルをダウンロード！  
 ・discord_basemodel.py  
 https://github.com/YukitoSeo/Discordbot_ChatGPT/blob/main/discord_basemodel.py  
 ・discord_taken.py  
 https://github.com/YukitoSeo/Discordbot_ChatGPT/blob/main/discord_taken.py  
 ・requirements.txt  
 https://github.com/YukitoSeo/Discordbot_ChatGPT/blob/main/requirements.txt  
+
+## STEP-2：各種API、TOKENの設定！  
+「discord_taken.py」内の値を設定する！
